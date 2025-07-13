@@ -14,9 +14,6 @@ This repo includes:
 - ✅ Activation functions: ReLU, Softmax
 - ✅ Loss functions: Categorical Crossentropy, MSE
 - ✅ Optimizers: SGD, Adam
-- ✅ Complete training loop
-- ✅ Toy dataset training examples (spiral, classification tasks)
-- ✅ Modular and well-commented code
 
 ---
 
@@ -26,8 +23,6 @@ This repo includes:
 - Matrix/vector operations with NumPy
 - Derivatives and gradients
 - Building loss and activation functions manually
-- Optimization from scratch
-- Debugging and improving training performance
 
 ---
 
