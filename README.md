@@ -1,43 +1,57 @@
 # 🧠 Neural Networks from Scratch with Python & NumPy
 
-This repository contains my implementation of neural networks **from scratch** using only **Python** and **NumPy**, based on the excellent [@Neural Networks from Scratch](https://youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3&si=zHnjIBpu71T853N5) playlist by [@sentdex](https://github.com/Sentdex/NNfSiX/tree/master/Python).
+This repository contains my hands-on implementation of **neural networks from scratch** using only **Python** and **NumPy**, following the [Neural Networks from Scratch](https://youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3&si=zHnjIBpu71T853N5) series by [@sentdex](https://github.com/Sentdex/NNfSiX/tree/master/Python).
 
 ---
 
-## 📚 What You’ll Find Here
 
-This repo includes:
+## ✅ Features Implemented
 
-- ✅ Forward propagation logic
-- ✅ Backpropagation and gradient calculations
-- ✅ Fully connected layers (`Dense` layers)
-- ✅ Activation functions: ReLU, Softmax
-- ✅ Loss functions: Categorical Crossentropy, MSE
-- ✅ Optimizers: SGD, Adam
+- 🧠 Forward propagation
+- 🧮 Manual dot product and matrix operations
+- 🔁 Multiple dense layers (fully connected)
+- ⚙️ Activation functions: ReLU, Softmax
+- ❌ Loss functions: Categorical Crossentropy
+- 🧠 From scalar neuron to full multi-layer network
 
 ---
 
-## 🧠 Core Concepts Learned
+## 💡 Concepts Covered
 
-- Neural network architecture
-- Matrix/vector operations with NumPy
-- Derivatives and gradients
-- Building loss and activation functions manually
+- Building blocks of neural networks
+- Manual forward propagation using NumPy
+- Designing layers and activations
+- Understanding loss functions deeply
+- Step-by-step debugging and testing
 
 ---
 
 ## 🚀 Getting Started
 
-### 🔧 Prerequisites
+### 📦 Prerequisites
 
-- Python 3.7+
+- Python 3.7 or higher
 - NumPy
 
 ```bash
 pip install numpy
 ````
 
-## 🤝 Acknowledgements
+Then run any script, for example:
 
-Huge thanks to [@sentdex](https://github.com/Sentdex/NNfSiX/tree/master/Python) for the detailed and insightful tutorial series. This project helped me build intuition behind how neural networks actually work at the core level.
+```bash
+python p005-ReLU-Activation.py
+```
 
+---
+
+## 🎓 Acknowledgements
+
+Thanks to [@sentdex](https://github.com/Sentdex/NNfSiX/tree/master/Python) for the incredible educational content that inspired this project. His video series made core neural network concepts much more approachable.
+
+---
+
+## 📌 Note
+
+This repository is educational in purpose and avoids high-level libraries like TensorFlow or PyTorch on purpose — to reinforce foundational understanding.
+```
